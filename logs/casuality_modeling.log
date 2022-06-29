@@ -1,0 +1,441 @@
+2022-06-29 02:07:45,175 — FileHandler — DEBUG — file read as csv
+2022-06-29 02:15:11,132 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 02:15:11,552 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 02:15:11,655 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 02:18:06,575 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 02:18:06,976 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 02:18:07,080 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 02:18:07,091 — FileHandler — DEBUG — file read as csv
+2022-06-29 02:18:07,290 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 03:14:29,996 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 03:14:30,426 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 03:14:30,505 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 03:14:30,511 — FileHandler — DEBUG — file read as csv
+2022-06-29 03:14:30,642 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 03:18:39,999 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 03:18:40,314 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 03:18:40,397 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 03:18:40,406 — FileHandler — DEBUG — file read as csv
+2022-06-29 03:18:40,563 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 03:19:34,869 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 03:19:35,260 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 03:19:35,328 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 03:19:35,335 — FileHandler — DEBUG — file read as csv
+2022-06-29 03:19:35,483 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 03:21:29,424 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 03:21:29,847 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 03:21:29,994 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 03:21:30,000 — FileHandler — DEBUG — file read as csv
+2022-06-29 03:21:30,121 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 03:21:58,282 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 03:21:58,748 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 03:21:58,845 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 03:21:58,852 — FileHandler — DEBUG — file read as csv
+2022-06-29 03:21:58,990 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 03:22:32,315 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 03:22:32,716 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 03:22:32,822 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 03:22:32,830 — FileHandler — DEBUG — file read as csv
+2022-06-29 03:22:32,941 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 03:51:46,155 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 03:51:46,634 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 03:51:46,713 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 03:51:46,719 — FileHandler — DEBUG — file read as csv
+2022-06-29 03:51:46,854 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 03:53:56,150 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 03:53:56,553 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 03:53:56,634 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 03:53:56,643 — FileHandler — DEBUG — file read as csv
+2022-06-29 03:53:56,784 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 03:55:40,040 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 03:55:40,470 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 03:55:40,538 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 03:55:40,544 — FileHandler — DEBUG — file read as csv
+2022-06-29 03:55:40,677 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 03:57:29,454 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 03:57:29,856 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 03:57:29,928 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 03:57:29,935 — FileHandler — DEBUG — file read as csv
+2022-06-29 03:57:30,075 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 03:58:56,025 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 03:58:56,429 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 03:58:56,512 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 03:58:56,517 — FileHandler — DEBUG — file read as csv
+2022-06-29 03:58:56,629 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 04:54:43,324 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 04:54:43,730 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 04:54:43,806 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 04:54:43,813 — FileHandler — DEBUG — file read as csv
+2022-06-29 04:54:43,952 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 05:04:45,016 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 05:04:45,402 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 05:04:45,561 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 05:04:45,568 — FileHandler — DEBUG — file read as csv
+2022-06-29 05:04:45,706 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 05:05:20,015 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 05:05:20,443 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 05:05:20,515 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 05:05:20,523 — FileHandler — DEBUG — file read as csv
+2022-06-29 05:05:20,655 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 05:37:19,788 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 05:37:20,180 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 05:37:20,259 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 05:37:20,263 — FileHandler — DEBUG — file read as csv
+2022-06-29 05:37:20,409 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 06:31:47,025 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 06:31:47,419 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 06:31:47,484 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 06:31:47,490 — FileHandler — DEBUG — file read as csv
+2022-06-29 06:31:47,620 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 06:34:43,386 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 06:34:43,787 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 06:34:43,865 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 06:34:43,870 — FileHandler — DEBUG — file read as csv
+2022-06-29 06:34:43,997 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 06:37:10,927 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 06:37:11,319 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 06:37:11,392 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 06:37:11,398 — FileHandler — DEBUG — file read as csv
+2022-06-29 06:37:11,525 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 06:37:27,497 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 06:37:27,908 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 06:37:27,974 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 06:37:27,980 — FileHandler — DEBUG — file read as csv
+2022-06-29 06:37:28,129 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 06:50:51,395 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 06:50:51,804 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 06:50:51,889 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 06:50:51,894 — FileHandler — DEBUG — file read as csv
+2022-06-29 06:50:52,066 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 06:52:41,702 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 06:52:41,702 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 06:52:41,829 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 06:52:41,829 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 06:52:41,836 — FileHandler — DEBUG — file read as csv
+2022-06-29 06:52:41,836 — FileHandler — DEBUG — file read as csv
+2022-06-29 06:52:41,973 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 06:52:41,973 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 06:58:00,372 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 06:58:00,776 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 06:58:00,878 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 06:58:00,885 — FileHandler — DEBUG — file read as csv
+2022-06-29 06:58:01,017 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 06:58:15,703 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 06:58:16,082 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 06:58:16,157 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 06:58:16,162 — FileHandler — DEBUG — file read as csv
+2022-06-29 06:58:16,286 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:01:55,289 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 07:01:55,672 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:01:55,761 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:01:55,770 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:01:55,986 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:11:19,637 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:11:19,637 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:11:19,734 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:11:19,734 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:11:19,741 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:11:19,741 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:11:19,914 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:11:19,914 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:19:55,654 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 07:19:56,043 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:19:56,130 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:19:56,137 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:19:56,295 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:24:18,433 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 07:24:18,825 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:24:18,905 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:24:18,911 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:24:19,055 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:27:11,929 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:27:11,929 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:27:12,046 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:27:12,046 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:27:12,054 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:27:12,054 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:27:12,177 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:27:12,177 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:40:45,636 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:40:45,636 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:40:45,636 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:40:45,743 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:40:45,743 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:40:45,743 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:40:45,752 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:40:45,752 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:40:45,752 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:40:45,939 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:40:45,939 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:40:45,939 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:41:56,708 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:41:56,708 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:41:56,708 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:41:56,708 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:41:56,837 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:41:56,837 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:41:56,837 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:41:56,837 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:41:56,846 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:41:56,846 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:41:56,846 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:41:56,846 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:41:56,965 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:41:56,965 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:41:56,965 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:41:56,965 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,029 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,029 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,029 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,029 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,029 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,150 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,150 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,150 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,150 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,150 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,160 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:42:31,160 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:42:31,160 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:42:31,160 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:42:31,160 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:42:31,297 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,297 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,297 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,297 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:42:31,297 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:43:44,778 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:43:44,778 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:43:44,778 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:43:44,778 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:43:44,778 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:43:44,778 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:43:44,945 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:43:44,945 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:43:44,945 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:43:44,945 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:43:44,945 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:43:44,945 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:43:44,953 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:43:44,953 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:43:44,953 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:43:44,953 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:43:44,953 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:43:44,953 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:43:45,091 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:43:45,091 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:43:45,091 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:43:45,091 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:43:45,091 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:43:45,091 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,331 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,331 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,331 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,331 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,331 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,331 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,331 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,464 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,464 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,464 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,464 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,464 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,464 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,464 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,473 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:44:20,473 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:44:20,473 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:44:20,473 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:44:20,473 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:44:20,473 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:44:20,473 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:44:20,608 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,608 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,608 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,608 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,608 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,608 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:44:20,608 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:47:51,138 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 07:47:51,625 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:47:51,719 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:47:51,727 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:47:51,854 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:50:17,455 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:50:17,455 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:50:17,571 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:50:17,571 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:50:17,578 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:50:17,578 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:50:17,766 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:50:17,766 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:51:20,483 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:51:20,483 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:51:20,483 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:51:20,573 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:51:20,573 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:51:20,573 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:51:20,581 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:51:20,581 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:51:20,581 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:51:20,711 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:51:20,711 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:51:20,711 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:52:00,446 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:52:00,446 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:52:00,446 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:52:00,446 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:52:00,582 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:52:00,582 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:52:00,582 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:52:00,582 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:52:00,591 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:52:00,591 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:52:00,591 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:52:00,591 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:52:00,733 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:52:00,733 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:52:00,733 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:52:00,733 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 07:54:11,909 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 07:54:12,282 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 07:54:12,361 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 07:54:12,367 — FileHandler — DEBUG — file read as csv
+2022-06-29 07:54:12,580 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:05:50,132 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 08:05:50,132 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 08:05:50,264 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:05:50,264 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:05:50,270 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:05:50,270 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:05:50,407 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:05:50,407 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:06:58,050 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 08:06:58,050 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 08:06:58,050 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 08:06:58,192 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:06:58,192 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:06:58,192 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:06:58,199 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:06:58,199 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:06:58,199 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:06:58,338 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:06:58,338 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:06:58,338 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:16:13,171 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 08:16:13,563 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 08:16:13,645 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:16:13,652 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:16:13,807 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:20:23,251 — FileHandler — ERROR — save failed
+Traceback (most recent call last):
+  File "/home/biruk/10x Files/Week 8/Casuality-Modeling/scripts/file_handler.py", line 21, in save_csv
+    self.self.my_logger.info("file saved as csv")
+AttributeError: 'FileHandler' object has no attribute 'self'
+2022-06-29 08:23:33,208 — FileHandler — ERROR — save failed
+Traceback (most recent call last):
+  File "/home/biruk/10x Files/Week 8/Casuality-Modeling/scripts/file_handler.py", line 20, in save_csv
+    df.to_csv(csv_path, index=index)
+  File "/home/biruk/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 3551, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/biruk/.local/lib/python3.10/site-packages/pandas/io/formats/format.py", line 1180, in to_csv
+    csv_formatter.save()
+  File "/home/biruk/.local/lib/python3.10/site-packages/pandas/io/formats/csvs.py", line 241, in save
+    with get_handle(
+  File "/home/biruk/.local/lib/python3.10/site-packages/pandas/io/common.py", line 694, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/biruk/.local/lib/python3.10/site-packages/pandas/io/common.py", line 568, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '../../data'
+2022-06-29 08:24:04,126 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 08:24:04,507 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 08:24:04,580 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:24:04,587 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:24:04,726 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:24:23,411 — FileHandler — ERROR — save failed
+Traceback (most recent call last):
+  File "/home/biruk/10x Files/Week 8/Casuality-Modeling/scripts/file_handler.py", line 21, in save_csv
+    self.self.my_logger.info("file saved as csv")
+AttributeError: 'FileHandler' object has no attribute 'self'
+2022-06-29 08:29:13,652 — FileHandler — ERROR — save failed
+Traceback (most recent call last):
+  File "/home/biruk/10x Files/Week 8/Casuality-Modeling/scripts/file_handler.py", line 20, in save_csv
+    df.to_csv(csv_path, index=index)
+  File "/home/biruk/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 3551, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/biruk/.local/lib/python3.10/site-packages/pandas/io/formats/format.py", line 1180, in to_csv
+    csv_formatter.save()
+  File "/home/biruk/.local/lib/python3.10/site-packages/pandas/io/formats/csvs.py", line 241, in save
+    with get_handle(
+  File "/home/biruk/.local/lib/python3.10/site-packages/pandas/io/common.py", line 694, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/biruk/.local/lib/python3.10/site-packages/pandas/io/common.py", line 568, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: '..data'
+2022-06-29 08:29:24,138 — FileHandler — ERROR — save failed
+Traceback (most recent call last):
+  File "/home/biruk/10x Files/Week 8/Casuality-Modeling/scripts/file_handler.py", line 21, in save_csv
+    self.self.my_logger.info("file saved as csv")
+AttributeError: 'FileHandler' object has no attribute 'self'
+2022-06-29 08:30:38,315 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 08:30:38,788 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 08:30:38,879 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:30:38,887 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:30:39,033 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:30:57,539 — FileHandler — ERROR — save failed
+Traceback (most recent call last):
+  File "/home/biruk/10x Files/Week 8/Casuality-Modeling/scripts/file_handler.py", line 21, in save_csv
+    self.self.my_logger.info("file saved as csv")
+AttributeError: 'FileHandler' object has no attribute 'self'
+2022-06-29 08:33:08,555 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 08:33:08,985 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 08:33:09,058 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:33:09,065 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:33:09,206 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:33:39,822 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 08:33:39,822 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 08:33:39,959 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:33:39,959 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:33:39,965 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:33:39,965 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:33:40,090 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:33:40,090 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:34:05,182 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 08:34:05,182 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 08:34:05,182 — DfCleaner — DEBUG — Loaded successfully!
+2022-06-29 08:34:05,296 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:34:05,296 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:34:05,296 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:34:05,304 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:34:05,304 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:34:05,304 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:34:05,440 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:34:05,440 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:34:05,440 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:34:56,617 — FileHandler — INFO — file saved as csv
+2022-06-29 08:34:56,617 — FileHandler — INFO — file saved as csv
+2022-06-29 08:34:56,617 — FileHandler — INFO — file saved as csv
+2022-06-29 08:35:36,699 — FileHandler — INFO — file saved as csv
+2022-06-29 08:35:36,699 — FileHandler — INFO — file saved as csv
+2022-06-29 08:35:36,699 — FileHandler — INFO — file saved as csv
+2022-06-29 08:38:37,015 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:38:37,015 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:38:37,015 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:38:37,015 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:38:37,023 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:38:37,023 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:38:37,023 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:38:37,023 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:39:28,693 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 08:45:28,859 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:45:28,861 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 08:45:28,863 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:45:29,304 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:46:19,385 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:46:27,458 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:48:22,327 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 08:48:22,329 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 08:48:22,331 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 08:48:22,799 — FileHandler — DEBUG — file read as csv
+2022-06-29 08:48:58,038 — FileHandler — INFO — file saved as csv
+2022-06-29 08:50:12,757 — FileHandler — DEBUG — file read as csv
