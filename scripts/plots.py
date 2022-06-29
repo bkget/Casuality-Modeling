@@ -39,12 +39,13 @@ class Plots:
         plt.show()
 
 
-    def heatmap(self, df, title='', annot=True): 
-        plt.figure(figsize=(12,6))
-        plt.title(title)
+    def heatmap(self, df: pd.DataFrame, title: str, cbar=False) -> None:
         correlation = df.corr()
-        sns.heatmap(correlation,square = True, linewidths = .5, cmap = "BuPu", annot=annot)
-        return
+        plt.figure(figsize=(20, 17))
+        sns.heatmap(correlation, annot=True, cmap='viridis', vmin=0,
+                    vmax=1, fmt='.2f', linewidths=.7, cbar=cbar)
+        plt.title(title, size=18, fontweight='bold')
+        plt.show()
          
 
     def plot_bar(self, column, title, xlabel, ylabel):
