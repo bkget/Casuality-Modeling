@@ -1,91 +1,74 @@
-import numpy as np
+import json
+import mlflow
+import pickle
+# import dvc.api
 import pandas as pd
+from config import Config
 from logger import get_logger
+from time import gmtime, strftime
 
-my_logger = get_logger("DfCleaner")
+my_logger = get_logger("FileHandler")
 my_logger.debug("Loaded successfully!")
 
-
-class DfCleaner():
-  """
-      Has functions for cleans pandas data frame by removing duplicates, 
-      droping columns or rows and more.
-  """
+class FileHandler():
 
   def __init__(self):
     pass
+ 
+  def save_csv(self, df, csv_path, index=False):
+    try:
+      df.to_csv(csv_path, index=index)
+      my_logger.info("file saved as csv")
 
-  def fixLabel(self, label: list) -> list:
-    """convert list of labels to lowercase separated by underscore
-    Args:
-        label (list): list of labels 
-    Returns:
-        list: list of labels in lower case, separated by underscore
-    """
-    label = label.strip()
-    label = label.replace(' ', '_').replace('.', '').replace('/', '_')
-    return label.lower()
+    except Exception:
+      my_logger.exception("save failed")
 
+  def read_csv(self, csv_path):
+    try:
+      df = pd.read_csv(csv_path)
+      my_logger.debug("file read as csv")
+      return df
+    except FileNotFoundError:
+      my_logger.exception("file not found")
 
-  def convert_to_integer(self, df: pd.DataFrame, columns: list) -> pd.DataFrame:
-    """convert selected columns to number
-    Args:
-        df (pd.DataFrame): pandas data frame
-        columns (list): list of column labels
-    Returns:
-        pd.DataFrame: pandas data frame with converted data types
-    """
-    for col in columns:
-      df[col] = df[col].astype('int64')
-    return df
+  def save_model(self, model, model_name):
+    try:
+      file_name = model_name+"_model "+ strftime("%Y-%m-%d %H-%M-%S", gmtime())
+      with open(f'../models/{file_name}.pkl', 'wb') as my_model:
+        pickle.dump(model, my_model) 
 
-  def convert_to_datetime(self, df: pd.DataFrame, columns: list) -> pd.DataFrame:
-    """convert selected columns to datetime
-    Args:
-        df (pd.DataFrame): pandas data frame
-        columns (list): list of column labels
-    Returns:
-        pd.DataFrame: pandas data frame with converted data types
-    """
-    for col in columns:
-      df[col] = pd.to_datetime(df[col])
-    return df
+      mlflow.log_artifact(f"../models/{file_name}.pkl")
+      my_logger.info("The model is successfully saved!")
 
-  def fix_missing_ffill(self, df: pd.DataFrame, columns):
-    for col in columns:
-      df[col] = df[col].fillna(method='ffill')
-    return df
+    except Exception:
+      my_logger.exception("save failed")
 
-  def fix_missing_bfill(self, df: pd.DataFrame, columns):
-    for col in columns:
-      df[col] = df[col].fillna(method='bfill')
-    return df
+  def read_model(self, model_name):
+    try:
+      name = Config.MODELS_PATH / str(model_name + ".pkl")
+      model = pickle.load(open(name, "rb"))
+      my_logger.debug("model read as pkl")
+      return model
+      
+    except FileNotFoundError:
+      my_logger.exception("model not found")
 
-  def fill_with_mode(self, df: pd.DataFrame, columns):
-    for col in columns:
-      df[col] = df[col].fillna(df[col].mode()[0])
-    return df
+  def save_metrics(self, data, file_name):
+    try:
+      time = strftime("%Y-%m-%d-%H:%M", gmtime())
+      name = Config.METRICS_FILE_PATH / str(file_name + "-" + time + ".json")
+      with open(name, 'w') as fp:
+        json.dump(data, fp)
+      my_logger.info("metrics saved as json")
 
-  
-  def fill_numerical_columns(self, df: pd.DataFrame, columns):
-      '''
-      Fill Numerical null values with mean or median based on the skewness of the columns
-      '''
-      try:
-        for col in columns:
-          skewness = df[col].skew() 
-          if((-1 < skewness) and (skewness < -0.5)):
-            df[col] = df[col].fillna(df[col].mean())
-          else:
-            df[col] = df[col].fillna(df[col].median())
+    except Exception:
+      my_logger.exception("metrics save failed")
 
-        return df
-
-      except:
-        pass
-
-  def percent_missing(self, df):
-    totalCells = np.product(df.shape)
-    missingCount = df.isnull().sum()
-    totalMissing = missingCount.sum()
-    return str(round(((totalMissing / totalCells) * 100), 2))
+  def read_metrics(self, file_name):
+    try:
+      name = Config.METRICS_FILE_PATH / str(file_name + ".json")
+      res = json.load(name)
+      my_logger.debug("metrics read as json")
+      return res
+    except FileNotFoundError:
+      my_logger.exception("metrics file not found")
