@@ -439,3 +439,30 @@ AttributeError: 'FileHandler' object has no attribute 'self'
 2022-06-29 08:48:22,799 — FileHandler — DEBUG — file read as csv
 2022-06-29 08:48:58,038 — FileHandler — INFO — file saved as csv
 2022-06-29 08:50:12,757 — FileHandler — DEBUG — file read as csv
+2022-06-29 20:08:06,076 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 20:08:06,078 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 20:08:06,081 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 20:08:07,311 — FileHandler — DEBUG — file read as csv
+2022-06-29 20:10:22,207 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 20:10:22,209 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 20:10:22,211 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 20:10:23,219 — FileHandler — DEBUG — file read as csv
+2022-06-29 20:19:26,240 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 20:19:26,242 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 20:19:26,244 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 20:19:29,711 — FileHandler — DEBUG — file read as csv
+2022-06-29 20:21:42,759 — FileHandler — DEBUG — file read as csv
+2022-06-29 20:25:31,339 — FileHandler — DEBUG — file read as csv
+2022-06-29 20:28:16,608 — FileHandler — DEBUG — file read as csv
+2022-06-29 20:28:50,665 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 20:28:50,667 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 20:28:50,668 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 20:28:51,144 — FileHandler — DEBUG — file read as csv
+2022-06-29 21:00:46,129 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 21:00:46,131 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 21:00:46,133 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 21:00:46,601 — FileHandler — DEBUG — file read as csv
+2022-06-29 21:04:08,919 — FileHandler — DEBUG — Loaded successfully!
+2022-06-29 21:04:08,921 — DfOutlier — DEBUG — Loaded successfully!
+2022-06-29 21:04:08,922 — DfOverview — DEBUG — Loaded successfully!
+2022-06-29 21:04:09,923 — FileHandler — DEBUG — file read as csv
