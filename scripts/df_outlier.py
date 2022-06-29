@@ -27,35 +27,6 @@ class DfOutlier:
   def percentage(self, list):
     return [str(round(((value / self.df.shape[0]) * 100), 2)) + '%' for value in list]
 
-  def remove_outliers(self, columns):
-    for col in columns:
-      Q1, Q3 = self.df[col].quantile(0.25), self.df[col].quantile(0.75)
-      IQR = Q3 - Q1
-      cut_off = IQR * 1.5
-      lower, upper = Q1 - cut_off, Q3 + cut_off
-      self.df = self.df.drop(self.df[self.df[col] > upper].index)
-      self.df = self.df.drop(self.df[self.df[col] < lower].index)
-
-  def replace_outliers_with_iqr(self, columns):
-    for col in columns:
-      Q1, Q3 = self.df[col].quantile(0.25), self.df[col].quantile(0.75)
-      IQR = Q3 - Q1
-      cut_off = IQR * 1.5
-      lower, upper = Q1 - cut_off, Q3 + cut_off
-
-      self.df[col] = np.where(self.df[col] > upper, upper, self.df[col])
-      self.df[col] = np.where(self.df[col] < lower, lower, self.df[col])
-
-  def replace_outliers_with_mean(self, columns):
-    for col in columns:
-      Q1, Q3 = self.df[col].quantile(0.25), self.df[col].quantile(0.75)
-      IQR = Q3 - Q1
-      cut_off = IQR * 1.5
-      lower, upper = Q1 - cut_off, Q3 + cut_off
-
-      self.df[col] = np.where(self.df[col] > upper, upper, self.df[col])
-      self.df[col] = np.where(self.df[col] < lower, lower, self.df[col])
-
   def getOverview(self) -> None:
 
     _labels = [column for column in self.df]
@@ -88,3 +59,23 @@ class DfOutlier:
     new_df.set_index('label', inplace=True)
     new_df.sort_values(by=["number_of_outliers"], inplace=True)
     return new_df
+
+
+  def fix_outlier(self):
+    column_name=list(self.df.columns[2:])
+    for i in column_name:
+        upper_quartile=self.df[i].quantile(0.75)
+        lower_quartile=self.df[i].quantile(0.25)
+        self.df[i]=np.where(self.df[i]>upper_quartile,self.df[i].median(),np.where(self.df[i]<lower_quartile,self.df[i].median(),self.df[i]))
+    return self.df 
+
+
+  def replace_outliers_with_mean(self, columns):
+    for col in columns:
+      Q1, Q3 = self.df[col].quantile(0.25), self.df[col].quantile(0.75)
+      IQR = Q3 - Q1
+      cut_off = IQR * 1.5
+      lower, upper = Q1 - cut_off, Q3 + cut_off
+
+      self.df[col] = np.where(self.df[col] > upper, upper, self.df[col])
+      self.df[col] = np.where(self.df[col] < lower, lower, self.df[col])
