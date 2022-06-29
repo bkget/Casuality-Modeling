@@ -1,4 +1,4 @@
-# Casual Inference Modeling of Breast Cancer Diagnosis
+# Causal Inference Modeling of Breast Cancer Diagnosis
 <img style = "padding-left:10%" src="https://images.medicaldaily.com/sites/medicaldaily.com/files/styles/full_breakpoints_theme_medicaldaily_desktop_1x/public/2013/11/29/breast-cancer-3d-rendering.jpg" width="200" height="200"/>
 
 
@@ -32,8 +32,8 @@ The data used for this project can be extracted from [Kaggle](https://www.kaggle
 
 - **The Repository**
 ```
-git clone https://github.com/bkget/Casuality-Modeling.git
-cd Casuality-Modeling
+git clone https://github.com/bkget/Causal-Inference-Modeling.git
+cd Causal-Inference-Modeling
 pip install -r requriements.txt
 ```
 
