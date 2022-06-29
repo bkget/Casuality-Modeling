@@ -99,3 +99,17 @@ class Plots:
         fig.text(0.75,1, "  Malignant",{'font':'serif','size':14, 'weight':'bold','color':"red"}, alpha = 1)
 
         fig.show()
+
+
+    def multiple_boxplot(self, x, y, start: int = 0, num_features: int = 10):
+        data = pd.concat([y, x.iloc[:, start:num_features]], axis=1)
+        data = pd.melt(data,
+                    id_vars="diagnosis",
+                    var_name="features",
+                    value_name='value')
+        plt.figure(figsize=(20, 12))
+        sns.boxplot(x="features", y="value", hue="diagnosis", data=data)
+        plt.xticks(rotation=90)
+        plt.xticks(fontsize=14)
+        plt.yticks(fontsize=14)
+        plt.show()
