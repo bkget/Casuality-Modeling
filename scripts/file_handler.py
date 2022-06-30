@@ -6,6 +6,7 @@ import pandas as pd
 from config import Config
 from logger import get_logger
 from time import gmtime, strftime
+from sklearn.preprocessing import Normalizer, MinMaxScaler, StandardScaler
 
 my_logger = get_logger("FileHandler")
 my_logger.debug("Loaded successfully!")
@@ -72,3 +73,22 @@ class FileHandler():
       return res
     except FileNotFoundError:
       my_logger.exception("metrics file not found")
+
+
+  def normalizer(self, df, columns):
+        norm = Normalizer()
+        return pd.DataFrame(norm.fit_transform(df), columns=columns)
+
+  def scaler(self, df, columns, mode="minmax"):
+    if (mode == "minmax"):
+        minmax_scaler = MinMaxScaler()
+        return pd.DataFrame(minmax_scaler.fit_transform(df), columns=columns)
+
+    elif (mode == "standard"):
+      scaler = StandardScaler()
+      return pd.DataFrame(scaler.fit_transform(df), columns=columns)
+
+
+  def scale_and_normalize(self, df, scaler="minmax"):
+    columns = df.columns
+    return self.normalizer(self.scaler(df, columns, scaler), columns)
