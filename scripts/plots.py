@@ -9,6 +9,10 @@ import plotly.io as pio
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go  
 
+from logger import get_logger 
+my_logger = get_logger("Plot")
+my_logger.debug("Loaded successfully!")
+
 class Plots:
     def __init__(self) -> None:
         pass
