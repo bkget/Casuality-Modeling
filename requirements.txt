@@ -1,4 +1,4 @@
-causalnex
+causalnex==0.10.0
 json
 pandas
 numpy
