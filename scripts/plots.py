@@ -1,13 +1,19 @@
 import pandas as pd
 import numpy as np
 import seaborn as sns 
-import streamlit as st
 import matplotlib.pyplot as plt
 from IPython.display import Image
-import plotly.express as px
 import plotly.io as pio
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go  
+from causalnex.plots import plot_structure, NODE_STYLE, EDGE_STYLE
+from IPython.display import Markdown, display, Image, display_html
+from causalnex.structure.notears import from_pandas
+
+
+from logger import get_logger 
+my_logger = get_logger("Plot")
+my_logger.debug("Loaded successfully!")
 
 class Plots:
     def __init__(self) -> None:
@@ -114,3 +120,32 @@ class Plots:
         plt.xticks(fontsize=14)
         plt.yticks(fontsize=14)
         plt.show()
+
+
+    def vis_sm(self, sm):
+        viz = plot_structure(
+            sm,
+            graph_attributes={"scale": "2.0", 'size': 2.5},
+            all_node_attributes=NODE_STYLE.WEAK,
+            all_edge_attributes=EDGE_STYLE.WEAK)
+        return Image(viz.draw(format='png'))
+
+    
+    def causal_graph (self,data, parent_node, percent):
+        """Draws Causal graph
+        Args:
+            structural_model (from_pandas_lasso): Structural model of causalnex
+        Returns:
+            plot_structure
+        """
+        try:
+            portion = int(data.shape[0] * percent)
+            x_portion = data.head(portion)
+
+            sm = from_pandas(x_portion, tabu_parent_nodes=[parent_node],)
+            sm.remove_edges_below_threshold(0.8)
+            sm = sm.get_largest_subgraph() 
+            return sm
+        
+        except Exception:
+            self.logger.exception('plots causal graph  failed.')
