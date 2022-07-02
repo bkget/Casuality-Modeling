@@ -1,4 +1,8 @@
+causalnex
+json
 pandas
 numpy
+matplotlib
+sklearn
 seaborn
 plotly
