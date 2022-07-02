@@ -1,5 +1,4 @@
 causalnex
-json
 pandas
 numpy
 matplotlib
