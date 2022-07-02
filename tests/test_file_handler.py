@@ -5,8 +5,8 @@ import pandas as pd
 import pandas.api.types as ptypes
 from pandas.api import types
 
-sys.path.append(os.path.abspath(os.path.join('../scripts')))
-from file_handler import FileHandler
+# sys.path.append(os.path.abspath(os.path.join('../scripts')))
+from scripts.file_handler import FileHandler
 
 class TestFileHandler(unittest.TestCase):
 
