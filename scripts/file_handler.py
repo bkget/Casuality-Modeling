@@ -1,7 +1,7 @@
 from sklearn.preprocessing import Normalizer, MinMaxScaler, StandardScaler
 import pandas as pd
 
-from logger import get_logger
+from scripts.logger import get_logger
 my_logger = get_logger("FileHandler")
 my_logger.debug("Loaded successfully!")
 
