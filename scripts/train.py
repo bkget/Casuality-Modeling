@@ -6,11 +6,6 @@ import seaborn as sns
 import pandas as pd 
 import numpy as np
 
-import sys, os
-sys.path.append(os.path.abspath(os.path.join('../scripts')))
-from file_handler import FileHandler
-file_handler = FileHandler()
-
 # Set random seed
 seed = 42
 
@@ -19,7 +14,7 @@ seed = 42
 ################################
 
 # Load in the data
-df = file_handler.read_csv("../data/features_data.csv")
+df = pd.read_csv("../data/features_data.csv")
 
 # Split into train and test sections
 diagnosis = df.pop("diagnosis")
