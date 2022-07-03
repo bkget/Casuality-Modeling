@@ -6,9 +6,9 @@ import seaborn as sns
 import pandas as pd 
 import numpy as np
 
-# import sys, os
-# sys.path.append(os.path.abspath(os.path.join('../scripts')))
-from scripts.file_handler import FileHandler
+import sys, os
+sys.path.append(os.path.abspath(os.path.join('../scripts')))
+from file_handler import FileHandler
 file_handler = FileHandler()
 
 # Set random seed
