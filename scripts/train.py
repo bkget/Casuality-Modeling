@@ -14,7 +14,7 @@ seed = 42
 ################################
 
 # Load in the data
-df = pd.read_csv("../data/features_data.csv")
+df = pd.read_csv("data/features_data.csv")
 
 # Split into train and test sections
 diagnosis = df.pop("diagnosis")
@@ -38,7 +38,7 @@ train_score = regr.score(X_train, y_train) * 100
 test_score = regr.score(X_test, y_test) * 100
 
 # Write scores to a file
-with open("../data/metrics.txt", 'w') as outfile:
+with open("data/metrics.txt", 'w') as outfile:
         outfile.write("Training Score: %2.1f%%\n" % train_score)
         outfile.write("Test Score: %2.1f%%\n" % test_score)
 
@@ -63,5 +63,5 @@ ax.set_ylabel('Feature', fontsize = axis_fs)#ylabel
 ax.set_title('Random Forest Feature Importance', fontsize = title_fs)
 
 plt.tight_layout()
-plt.savefig("../screenshots/feature_importance.png",dpi=120) 
+plt.savefig("screenshots/feature_importance.png",dpi=120) 
 plt.close()
