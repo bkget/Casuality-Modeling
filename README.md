@@ -1,4 +1,12 @@
-# Causal Inference Modeling of Breast Cancer Diagnosis
+<div style="margin:0 auto;">
+  <a href="https://github.com/bkget/Causal-Inference-Modeling"><img src="https://img.shields.io/github/forks/bkget/Causal-Inference-Modeling" alt="Forks Badge"/></a>
+  <a "https://github.com/bkget/Causal-Inference-Modeling/pulls"><img src="https://img.shields.io/github/issues-pr/bkget/Causal-Inference-Modeling" alt="Pull Requests Badge"/></a>
+  <a href="https://github.com/bkget/Causal-Inference-Modeling/issues"><img src="https://img.shields.io/github/issues/bkget/Causal-Inference-Modeling" alt="Issues Badge"/></a>
+  <a href="https://github.com/bkget/Causal-Inference-Modeling/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/bkget/Causal-Inference-Modeling?color=2b9348"></a>
+  <a href="https://github.com/bkget/Causal-Inference-Modeling/blob/main/LICENSE"><img src="https://img.shields.io/github/license/bkget/Causal-Inference-Modeling?color=2b9348" alt="License Badge"/></a>
+  </div>
+</br>
+# Causal Inference Modeling of Breast Cancer Diagnosis 
 <img style = "padding-left:10%" src="https://images.medicaldaily.com/sites/medicaldaily.com/files/styles/full_breakpoints_theme_medicaldaily_desktop_1x/public/2013/11/29/breast-cancer-3d-rendering.jpg" width="200" height="200"/>
 
 
