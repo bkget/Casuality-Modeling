@@ -11,8 +11,8 @@ class TestFileHandler(unittest.TestCase):
 
 
     def test_read_csv(self):
-        df = self.file_handle.read_csv('data/data.csv')
-        df_test = pd.read_csv('data/data.csv')
+        df = self.file_handle.read_csv('data/cleaned_data.csv')
+        df_test = pd.read_csv('data/cleaned_data.csv')
         self.assertEqual(df.shape, df_test.shape)
 
 
