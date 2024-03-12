@@ -27,7 +27,7 @@ The project involves with the following points
 - Perform exploratory analysis on it
 - Extract features and scale the extracted feature
 - Split the data into training and hold-out set
-- Create casual graph using different technique
+- Create causal graph using different technique
 - Examine the model performance based on the graph
 
 
